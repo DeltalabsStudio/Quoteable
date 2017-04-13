@@ -21,7 +21,7 @@ import org.json.JSONObject;
  * Copyright (c) 2017 Robert Simoes
  * Using the Forismatic Quotes API, we can call and get a quote using a REST request.
  *
- * This is a very specific
+ * This is a very specific implementation of the API.
  *
  * This depends on the android volley library to work.
  */
