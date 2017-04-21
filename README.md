@@ -2,7 +2,7 @@
 
 ## Intro
 
-Quoteable is a simple library to request random quotes from the free Forismatic Quote API to help implement quotes into your app.
+Quoteable is a simple library to request random quotes from the free [Forismatic Quote API](http://forismatic.com/en/api/) to help implement quotes into your app.
 
 
 ## Install
@@ -47,8 +47,8 @@ public class MainActivity extends AppCompatActivity implements Quoteable.Respons
 
     @Override
     public void onQuoteResponseReady(QuotePackage response) {
-    Log.d("MainActivity",defaultResponse.getQuote());
-    Log.d("MainActivity",defaultResponse.getAuthor());
+    Log.d("MainActivity",response.getQuote());
+    Log.d("MainActivity",response.getAuthor());
     }
 
     @Override
@@ -70,9 +70,9 @@ to your manifest.
 
 ## Author
 
-[@RobertSimoes](http://twitter.com/robertsimoes)
-
-[Website](http://robertsimoes.com)
+[@RobertSimoes](http://robertsimoes.com/)
+[GitHub](http://github.com/robertsimoes)
+[Twitter](http://twitter.com/robertsimoes)
 
 ## License
 
